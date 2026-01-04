@@ -27,13 +27,13 @@ This implementation demonstrates the APB3 control logic, address decoding, and d
 
 ## RTL Schematic
 
-![RTL Diagram](docs/rtl.png)
+![RTL Diagram](rtl.png)
 
 ---
 
 ## FSM Diagram
 
-![FSM Diagram](docs/fsm.png)
+![FSM Diagram](fsm.png)
 
 ---
 

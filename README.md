@@ -21,8 +21,11 @@ This implementation demonstrates the APB3 control logic, address decoding, and d
 - Verified on **Xilinx Vivado**, **Intel Quartus**, **Aldec Active-HDL**, and **Siemens QuestaSim**  
 - Modular design suitable for integration with larger SoC architectures  
 
+
 ---
 
+## Master-Slave Diagram
+![Master Slave Diagram](ms.png)
 ---
 
 ## RTL Schematic
@@ -55,18 +58,9 @@ The design was simulated and verified across multiple tools to ensure portabilit
 
 ---
 
-## Future Enhancements
-
-- Implementation of APB-to-AHB or APB-to-AXI bridge  
-- Addition of programmable slave registers  
-- Error signaling for invalid address access  
-
----
-
 ## Author
 
 Developed by **Ishaan Bhimajiyani**  
-Minor Project — Electronics and Communication Engineering
 
 ## Repository Structure
 

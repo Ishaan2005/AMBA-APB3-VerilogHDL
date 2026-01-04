@@ -62,5 +62,3 @@ The design was simulated and verified across multiple tools to ensure portabilit
 
 Developed by **Ishaan Bhimajiyani**  
 
-## Repository Structure
-

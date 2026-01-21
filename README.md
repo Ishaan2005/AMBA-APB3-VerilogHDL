@@ -25,7 +25,9 @@ This implementation demonstrates the APB3 control logic, address decoding, and d
 ---
 
 ## Master-Slave Diagram
+
 ![Master Slave Diagram](ms.png)
+
 ---
 
 ## RTL Schematic
@@ -45,12 +47,14 @@ This implementation demonstrates the APB3 control logic, address decoding, and d
 The design was simulated and verified across multiple tools to ensure portability and reliability.
 
 **Tools Used**
+
 - Xilinx Vivado Simulator  
 - Intel Quartus Prime  
 - Aldec Active-HDL  
 - Siemens QuestaSim  
 
 **Testbench Coverage**
+
 - APB3 signal handshaking: `PSEL`, `PENABLE`, `PWRITE`, `PREADY`  
 - Data read and write cycles  
 - Address decoding for multiple slaves  
@@ -58,7 +62,19 @@ The design was simulated and verified across multiple tools to ensure portabilit
 
 ---
 
+## To run the project use
+
+```bash
+
+git clone https://github.com/Ishaan2005/AMBA-APB3-VerilogHDL.git
+
+docker build -t apb-project .
+
+docker run -it apb-project 
+
+
+```
+
 ## Author
 
 Developed by **Ishaan Bhimajiyani**  
-
